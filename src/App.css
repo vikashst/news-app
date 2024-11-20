@@ -1,0 +1,59 @@
+/* .app {
+  display: flex;
+  height: 100%;
+}
+
+.news-list {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+ .app {
+  display: flex;
+  height: 100%;
+}
+
+.news-list {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .news-list {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 12px; /* Reduce gap for smaller screens */
+    padding: 12px; /* Adjust padding for smaller screens */
+  }
+}
