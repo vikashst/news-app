@@ -11,4 +11,4 @@ export const getTopHeadlines = (category) => {
       apiKey: API_KEY,
     },
   });
-}
+};

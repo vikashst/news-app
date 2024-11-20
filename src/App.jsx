@@ -27,7 +27,7 @@ const App = () => {
         {news.map((article, index) => (
           <NewsCard
             key={index}
-            article={article}
+            article={article}   //Here we are sending prop. to NewsCard
             onClick={() => setSelectedNews(article)}
           />
         ))}
